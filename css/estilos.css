@@ -1,0 +1,160 @@
+* {                                   
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#90ee90 ;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+   /** font-weight:bold; */
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: grey;
+}
+
+
+h2,li {
+    color: blue;
+}
+
+hr {
+    width: 45%;
+    background-color: black;
+    border-style: none;
+    height: 5px;
+    margin-bottom: 2px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+.enlace {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rojo {
+    color:brown;
+    font-weight: bold
+}
+
+.menu {
+    display: flex;
+}
+
+
+.menuIzquierdo {
+    background-color: burlywood;
+    width: 35%; 
+}
+
+.menuDerecha {
+    background-color: aqua;
+    width: 65%;
+}
+
+
+.miClase {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: maroon;
+    border: 1px solid maroon;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    text-align: center;
+    background-color: orange;
+}
+
+.video {
+    margin-top: 10;
+    margin-right: 5;
+    margin-left: 5;
+    margin-bottom: 10;
+    width: 300px;
+    height: 200px;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.enLinea {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    background-color: grey;
+}
+
+.borde {
+    border: 1px solid gray;
+    margin: 14px 4px 4px 7px;
+}
+
+.margenIzquierdo {
+    margin-left: 15px;
+}
+
+.logo {
+    width: 175px;
+    height: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#objetivo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: maroon;
+    border: 1px solid maroon;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
+}
+
+#datos_personales {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: maroon;
+    border: 1px solid maroon;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
+    width: 75%;
+    float: left;
+}
+
+#foto_carnet {
+    border-radius: 40%;
+    width: 50%;           /** Recordatorio solo para Diegote (yo):Ocupara el 50% del total del contenedor*/
+    align-content: center;
+    margin: 10px 50px 10px 100px; 
+}
+
+
+#info_complementaria {
+     color: white;
+     border-style:double;
+     background-color: red;
+     width: 100%;
+     text-align: center;
+}
+
+#gustar {
+    color: blueviolet;
+}
+
+
+
+
