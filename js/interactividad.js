@@ -30,8 +30,8 @@ document.getElementById("boton_ocultar").addEventListener("click", function() {
 
 /* No logre que funcione el siguiente codigo, ¿Por que será? Error en .addEventListener("click", function() {    */
 document.getElementById("boton_alias").addEventListener("click", function() {    
-    console.log("Hola mundo desde addEventListener");
-    document.getElementById("alias").innerHTML = "¡ME PUEDEN DECIR DIEGOTE (Probando eventos)";
+console.log("Hola mundo desde addEventListener");
+document.getElementById("alias").innerHTML = "¡ME PUEDEN DECIR DIEGOTE (Probando eventos)";
 });
 
 /* No logre que funcione el siguiente codigo, ¿Por que será?*/
