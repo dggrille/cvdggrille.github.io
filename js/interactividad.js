@@ -23,24 +23,27 @@ document.getElementById("boton_color2").addEventListener("click", function() {
     document.body.style.backgroundColor = "#E6C18C";
 });
 
+document.getElementById("boton_default").addEventListener("click", function() {
+    document.body.style.backgroundColor = "#90ee90";
+});
+
 document.getElementById("boton_ocultar").addEventListener("click", function() {
     document.getElementById("parrafo_objetivo").style.display = "none";
 });
 
 
-/* No logre que funcione el siguiente codigo, ¿Por que será? Error en .addEventListener("click", function() {    */
-document.getElementById("boton_alias").addEventListener("click", function() {    
-console.log("Hola mundo desde addEventListener");
-document.getElementById("alias").innerHTML = "¡ME PUEDEN DECIR DIEGOTE (Probando eventos)";
-});
+document.getElementById("boton_alias").onclick = function () {
+    console.log("capturamos el evento click");
+    document.getElementById("alias").innerHTML = "ME PUEDEN DECIR DIEGOTE (Probando eventos)";
+}
 
-/* No logre que funcione el siguiente codigo, ¿Por que será?*/
-document.getElementById("objetivo").innerHTML = "¡TRATAREMOS DE LOGRAR COMO OBJETIVO! (Probando eventos) ";
 
-/* No logre que funcione el siguiente codigo para restablecer color de fondo, ¿Por que será? En documento aparte unicos SI ME FUNCIONA*/
-document.getElementById("boton_default").addEventListener("click", function() {
-    document.body.style.backgroundColor = "#90ee90";
-});
+/* No logre que funcione el siguiente codigo, ¿Por que será?
+document.getElementById("objetivo").innerHTML = "¡TRATAREMOS DE LOGRAR COMO OBJETIVO (Probando eventos!";
+*/
+
+
+
    
 
 
