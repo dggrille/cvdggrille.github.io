@@ -96,6 +96,11 @@ h3 {
     background-color: grey;
 }
 
+.enLinea div{
+    border: 1px solid black;
+    text-align: center;
+}
+
 .borde {
     border: 1px solid gray;
     margin: 14px 4px 4px 7px;
