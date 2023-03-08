@@ -21,18 +21,20 @@
     
     <!--Aprendiendo a utilizar libreria de full responsive en bootstrap
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    -->
+    -->          
 </head>
 <body>
     <header class="enLinea">
         <div>
         <img class="logo" src="logo_desarrollador2.png"  alt="Logo del desarrollador web">
         </div>
+        
         <div>
             <button type="button" id="boton_color">Click! Cambiar color de fondo: opcion A</button>
             <button type="button" id="boton_color2">Click! Cambiar color de fondo: opcion B</button>        
             <button type="button" id="boton_default">Click! Restablecer color de fondo</button>   <!--Si este codigo de linea lo ubico entre lineas cambiar color y restablecer color de fondo, NO FUNCIONA ¿Porque será?-->      
         </div>
+        
         <div>
             <p class="borde">Visualizar capítulos en la PROPIA VENTANA
             <a class="enlace" href="#datos-personales">Datos Personales</a>
@@ -41,6 +43,7 @@
             <a class="enlace" href="#info-complementaria">Informacion Complementaria</a>
             </p>
         </div>    
+        
         <div>
             <p class="borde">Visualizar capítulos en OTRA VENTANA
             <a class="enlace" target="_blank" href="#datos-personales">Datos Personales</a>
@@ -52,7 +55,10 @@
     </header>
 
     <section>      
+        <div>
         <h1>PROYECTO FINAL: CV</h1> 
+        </div>
+        
         <div>     
         <h2 id="objetivo">OBJETIVO</h2>
         <P id="parrafo_objetivo">
@@ -65,7 +71,7 @@
     </section>
 
     <section class="menu">
-        <section class="menuIzquierdo">
+        <div class="menuIzquierdo">
            
            <div>
                 <img id="foto_carnet" src="https://randomuser.me/api/portraits/men/73.jpg" height="175px" width="175px" alt="Foto del postulante">
@@ -76,6 +82,7 @@
                 <div>
                 <h2 id="datos_personales">DATOS PERSONALES</h2>
                 </div>
+                
                 <div>                    
                 <h3 id="demo">
                 Datos con formato JSON 
@@ -96,6 +103,7 @@
                 </script>
                 </div>
             </div>
+                
                 <div>
                     <h3>
                         Datos en Lista
@@ -115,29 +123,41 @@
                         </div>
                         <li>e-mail: ggggggg@gmail.com</li>
                 </div>
-        </section>
+        </div>
 
-        <section class="menuDerecha">
+        <div class="menuDerecha">
             <div>
+                <div>
                 <a name="historial-academico"></a>
                 <h2 class="miClase">HISTORIAL ACADEMICO</h2>         
-            </div>
+                </div>
+                
                 <div class="flexContainer"> 
                 <h3>Nivel Secundario</h3>
                 <i>Escuela comercial N°143 (Título: Perito Mercantil)</i>
                 </div>
-            <div>
+            
+                <div>
                 <div class="flexContainer"> 
                 <h3>Nivel Superior</h3>
                 <i> Lorem Ipsum (Título:Lorem Ipsum)</i>
                 </div>
+            </div>
+                
+            <div>
+                <div>
                 <a name="Experiencia-laboral"></a>
                 <h2 class="miClase">EXPERIENCIA LABORAL</h2>
-           </div>
+                </div>
+                
+                <div>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
+                </div>
+                
+                <div>
                 <pre>  <!--Utilize este elemento para demostrar que lo aprendi (ver igual en codigo como en la web)-->
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -148,46 +168,54 @@
                                     and more recently with desktop publishing software
                                     like Aldus PageMaker including versions of Lorem Ipsum.
                 </pre>
-        </section>
+                </div>
+            </div>
+        </div>
     </section>
     
     <section class="container-fluid style" style="background-color: #90ee90;">
            
-            <div>
-            <a name="info-complementaria"></a>
-            <h2 id="info_complementaria">INFORMACION COMPLEMENTARIA</h2>
-            </div>
+        <div>
+        <a name="info-complementaria"></a>
+        <h2 id="info_complementaria">INFORMACION COMPLEMENTARIA</h2>
+        </div>
+        
         <div class="flexContainer">
             <div>
             <p id="agradecimiento">
                 Video del docente donde enseña a insertar elementos multimediales.
             </p>
-            <button type="button" id="boton_gracias">Click! Cambiar parrafo</button>
-            </div>
-
-            <video class="video" controls>
+            <button type="button" id="boton_gracias">Click! Cambiar parrafo</button>                  
+                <video class="video" controls>
                 <source src="https://cdn.profesional.ticmas.io/resources/6398e8a99423af001689e6e4/assets/XytixVdbL5PxMl8h_transcoded-KRk4RZVmoQYf1P4c-01-%20Elemento%20Video.mp4?v=1" type="video/mp4">
                 <source src="video_insertar_elementos_multimediales.ogg" type="video/ogg">    <!--Video no completo en formato ogg -->   
                Su navegador no soporta video HTML de los tipos mp4/ogg (prueba con otro navegador).
             </video>
-        
-            <p>
-               Les quise compartir un video de <span class="rojo"> YouTube </span> que demuestra que con dedicación se puede obtener muy buenos resultados. 
-            </p>
-            <iframe class="video" src="https://www.youtube.com/embed/M2pKtZefTWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <section class="flexContainer">
+            </div>
+            
+            <div>
+                <div>
+                <p>
+                Les quise compartir un video de <span class="rojo"> YouTube </span> que demuestra que con dedicación se puede obtener muy buenos resultados. 
+                </p>
+                </div>
+                
+                <div>
+                <iframe class="video" src="https://www.youtube.com/embed/M2pKtZefTWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="flexContainer">
                 <div>
                 <p id="musica">
                 Estilo de música preferida:
                 </p>
-                <button type="button" id="boton_musica">Click! Cambiar parrafo</button>
-                </div>
-
+                <button type="button" id="boton_musica">Click! Cambiar parrafo</button>                            
                 <audio controls>
                 <source src="ulises_ Bueno_mp3.mp3" type="audio/mp3">
                 <source src="ulises_ Bueno_ogg.ogg" type="audio/ogg">
                 Su navegador no soporta audio HTML de los tipos mp3/ogg (prueba con otro navegador).
                 </audio>
+                </div>
         </div>    
                 <div>
                 <p>Mini calculadora que suma dos numeros</p>
@@ -205,8 +233,9 @@
                 <div style="display: none;">
                     El resultado de la <strong> suma </strong> es <p id="resultado"> </p>
                 </div>
+                
                 <script src="js/sumar.js"></script>
-            </section>
+            </div>
 
             <div>            
             <p id="gustar">               
@@ -230,16 +259,20 @@
         <div>       
         <img class="logo" src="logo_desarrollador2.png" alt="Logo del desarrollador web">
         </div>
+        
         <div>
         <p id="alias">Autor: Grille Diego Gonzalo</p>    
         <button type="button" id="boton_alias">Hacer click aqui</button>
         <script src="js/interactividad.js"></script>
         </div>
+        
         <div class="margenIzquierdo">
         <p><a href="mailto:grillediego@yahoo.com.ar">grillediego@yahoo.com.ar</a></p>
         <p><a href="mailto:dggrille@sanluis.edu.ar">dggrille@sanluis.edu.ar</a></p>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+    <!--Por el momento creo no utilizar 
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    -->
+    </body>
 </html> 
