@@ -167,6 +167,10 @@ h3 {
     font-size: 140%;
 }
 
+#contenedor_resultado {
+    color: blue;
+}
+
 /**
 #musica {
     width:20%
