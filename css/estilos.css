@@ -118,6 +118,16 @@ h3 {
     margin-left: 10px;
 }
 
+.enlaceBoton {
+    background-color: rgb(186, 67, 71);
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2px;
+  }
+
 #objetivo {
     font-family: 'Courier New', Courier, monospace;
     font-size: 267%;
